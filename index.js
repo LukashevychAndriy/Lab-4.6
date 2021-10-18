@@ -53,11 +53,11 @@ do {
   let S = 0;
   let k = n;
 
-  while (k <= 20) {
+  do {
     S += k;
     
     k++;
-  }
+  } while (k <= 20);
 
   P *= (n * n + S * S) / (n + 1);
 
